@@ -1,0 +1,28 @@
+
+
+       
+
+        <button  (click)="onClickEng()"  class="btn btn-primary" >EN</button>
+        <button (click)= "onClickSpa()"  class="btn btn-primary">SPA</button>
+        
+   <div class="row" *ngIf=active>     
+    <div *ngFor="let mainE of language; let ind=index" >
+        <button class="btn btn-secondary dropdown-toggle" type="button" id= "{{mainE}}" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <h3> 
+           {{mainE}}
+          </h3>  
+        </button> 
+        <div  class="dropdown-menu" aria-labelledby= "mainE" >
+          <div  >
+            <h3 *ngFor="let names of parts| slice:i[ind]:l[ind]">
+              <button class="dropdown-item" type="button">{{names}}</button>
+            </h3>          
+          </div>
+        </div>      
+    </div>
+  </div>
+     
+  
+      
+    
+
