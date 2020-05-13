@@ -27,21 +27,27 @@ i: number[]=[
   0, /*1.-BRISKET*/
   4, /*2.-FLANK & SHORT PLATE*/
   8, /*3.-ROUND*/
- 17  /*4.-SHORT LOIN*/
+  17,/*4.-SHORT LOIN*/
+  22, /*5.-SIRLOIN*/
+  29 /*6.-RIB*/
 
 ];
 l: number[]=[
-  3, /*1.-BRISKET*/
-  7, /*2.-FLANK & SHORT PLATE*/
-  16,/*3.-ROUND*/
-  21 /*4.-SHORT LOIN*/
+  4, /*1.-BRISKET*/
+  8, /*2.-FLANK & SHORT PLATE*/
+  17,/*3.-ROUND*/
+  22,/*4.-SHORT LOIN*/
+  29, /*5.-SIRLOIN*/
+  35 /*6.-RIB*/
 ];
 
 English:string[]=[
   'Brisket',
   'Flank & Short Plate', 
   'Round',
-  'Short Loin'
+  'Short Loin',
+  'Sirloin',
+  'Rib'
 ];
 
 EnglishParts: string[] = [
@@ -72,13 +78,31 @@ EnglishParts: string[] = [
 /*20*/  'Tenderloin Roast (Fillet Mignon)',
 /*21*/  'Tenderloin Steak (Fillet Mignon)',
   //SIRLOIN-ENG
+/*22*/  'Sirloin Steak, flat bone',
+/*23*/  'Sirloin Steak, round bone',
+/*24*/  'Top Sirloin Steak,sin hueso',
+/*25*/  'Tri-Tip Roast, Cap off',
+/*26*/  'Tri-Tip Steak, Cap off',
+/*27*/ 'Tri-Tip Roast, Cap on (Picanha)',
+/*28*/ 'Tri-Tip Steak, Cap on (Picanha)',
+  //RIB-ENG
+/*29*/'Rib Roast, Large End',
+/*30*/'Rib Roast, Small End',
+/*31*/'Rib Steak, Small End',
+/*32*/'Ribeye Roast',
+/*33*/'Ribeye Steak',
+/*34*/'Back Ribs'
+
+
   ];
 
 Spanish:string[]=[
   'Pecho',
   'Falda anterior y Falda Posterior',
   'Pierna',
-  'Lomo'
+  'Lomo',
+  'Sirloin/Aguayón',
+  'Costillar'
 ];
 
 SpanishParts: string[] = [
@@ -109,6 +133,20 @@ SpanishParts: string[] = [
 /*20*/  'Filete en trozo (Filete Mignon)',
 /*21*/  'Corte de Filete (Filete Mignon)',
   //SIRLOIN-SPA
+/*22*/ 'Corte de Sirloin,hueso plano',
+/*23*/ 'Corte sirloin, hueso redondo',
+/*24*/ 'Corte sirloin, sin hueso',
+/*25*/ 'Empuje en trozo',
+/*26*/ 'Corte de empuje',
+/*27*/ 'Picaña en trozo (Picanha)',
+/*28*/ 'Corte de Picaña (Picanha)',
+  //RIB-SPA
+/*29*/'Costillar en trozo lado de la espaldilla',
+/*30*/'Costillar en trozo lado posterior',
+/*31*/'Corte del Costillar lado posterior',
+/*32*/'Trozo de Ribeye',
+/*33*/'Corte Ribeye',
+/*34*/'Costillas de Ribeye'
 
 ];
 
