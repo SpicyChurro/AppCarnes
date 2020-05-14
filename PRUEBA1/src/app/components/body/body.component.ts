@@ -29,7 +29,8 @@ i: number[]=[
   8, /*3.-ROUND*/
   17,/*4.-SHORT LOIN*/
   22, /*5.-SIRLOIN*/
-  29 /*6.-RIB*/
+  29, /*6.-RIB*/
+  35 /*7.-CHUCK*/
 
 ];
 l: number[]=[
@@ -38,7 +39,8 @@ l: number[]=[
   17,/*3.-ROUND*/
   22,/*4.-SHORT LOIN*/
   29, /*5.-SIRLOIN*/
-  35 /*6.-RIB*/
+  35, /*6.-RIB*/
+  48 /*7.-CHUCK*/
 ];
 
 English:string[]=[
@@ -47,7 +49,8 @@ English:string[]=[
   'Round',
   'Short Loin',
   'Sirloin',
-  'Rib'
+  'Rib',
+  'Chuck'
 ];
 
 EnglishParts: string[] = [
@@ -80,7 +83,7 @@ EnglishParts: string[] = [
   //SIRLOIN-ENG
 /*22*/  'Sirloin Steak, flat bone',
 /*23*/  'Sirloin Steak, round bone',
-/*24*/  'Top Sirloin Steak,sin hueso',
+/*24*/  'Top Sirloin Steak',
 /*25*/  'Tri-Tip Roast, Cap off',
 /*26*/  'Tri-Tip Steak, Cap off',
 /*27*/ 'Tri-Tip Roast, Cap on (Picanha)',
@@ -91,9 +94,21 @@ EnglishParts: string[] = [
 /*31*/'Rib Steak, Small End',
 /*32*/'Ribeye Roast',
 /*33*/'Ribeye Steak',
-/*34*/'Back Ribs'
-
-
+/*34*/'Back Ribs',
+  //CHUCK-ENG
+/*35*/'7-Bone Pot Roast',
+/*36*/'Arm Pot Roast',
+/*37*/'Blade Roast',
+/*38*/'Under Blade Pot Roast',
+/*39*/'Chuck Pot Roast',
+/*40*/'Chuck Eye Roast',
+/*41*/'Short Ribs',
+/*42*/'Flanken Style Ribs',
+/*43*/'Mock Tender Roast',
+/*44*/'Chuck Top Blade Stake',
+/*45*/'Shoulder Top Blade Steak (Flat Iron)',
+/*46*/'Shoulder Petite Tender',
+/*47*/'Shoulder Petite Tender Medallions'
   ];
 
 Spanish:string[]=[
@@ -102,7 +117,8 @@ Spanish:string[]=[
   'Pierna',
   'Lomo',
   'Sirloin/Aguayón',
-  'Costillar'
+  'Costillar',
+  'Espaldilla'
 ];
 
 SpanishParts: string[] = [
@@ -146,7 +162,21 @@ SpanishParts: string[] = [
 /*31*/'Corte del Costillar lado posterior',
 /*32*/'Trozo de Ribeye',
 /*33*/'Corte Ribeye',
-/*34*/'Costillas de Ribeye'
+/*34*/'Costillas de Ribeye',
+  //CHUCK-SPA
+/*35*/'Costilla del 7 en trozo',
+/*36*/'Brazuelo en trozo',
+/*37*/'Paleta en trozo',
+/*38*/'Paleta inferior en trozo',
+/*39*/'Espaldilla en trozo',
+/*40*/'Corazón de diezmillo en trozo',
+/*41*/'Costilla cargada',
+/*42*/'Costillas estilo flanken',
+/*43*/'Juil en trozo',
+/*44*/'Corte de planchuela',
+/*45*/'Corte de diezmillo',
+/*46*/'Teres mayor(Carnaza de paleta)',
+/*47*/'Medallones de Teres mayor'
 
 ];
 
