@@ -182,6 +182,7 @@ SpanishParts: string[] = [
 
 
 
+
   constructor() { }
 
   ngOnInit(): void {
