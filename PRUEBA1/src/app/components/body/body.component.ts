@@ -30,7 +30,8 @@ i: number[]=[
   17,/*4.-SHORT LOIN*/
   22, /*5.-SIRLOIN*/
   29, /*6.-RIB*/
-  35 /*7.-CHUCK*/
+  35, /*7.-CHUCK*/
+  48, /*8.-HEAD*/
 
 ];
 l: number[]=[
@@ -40,7 +41,8 @@ l: number[]=[
   22,/*4.-SHORT LOIN*/
   29, /*5.-SIRLOIN*/
   35, /*6.-RIB*/
-  48 /*7.-CHUCK*/
+  48, /*7.-CHUCK*/
+  53/*8.-HEAD*/
 ];
 
 English:string[]=[
@@ -50,7 +52,8 @@ English:string[]=[
   'Short Loin',
   'Sirloin',
   'Rib',
-  'Chuck'
+  'Chuck',
+  'Head'
 ];
 
 EnglishParts: string[] = [
@@ -59,7 +62,7 @@ EnglishParts: string[] = [
 /*1*/  'Brisket, Whole',
 /*2*/  'Corned Brisket, Point Half',
 /*3*/  'Brisket, Flat Half',
-  // FLANK & SHORT PLATE-ENG 4-7
+  // SHORT PLATE & FLANK-ENG 4-7
 /*4*/  'Flank Steak',
 /*5*/  'Fajita',
 /*6*/  'Skirt Steak',
@@ -108,7 +111,13 @@ EnglishParts: string[] = [
 /*44*/'Chuck Top Blade Stake',
 /*45*/'Shoulder Top Blade Steak (Flat Iron)',
 /*46*/'Shoulder Petite Tender',
-/*47*/'Shoulder Petite Tender Medallions'
+/*47*/'Shoulder Petite Tender Medallions',
+  //HEAD-SPA
+/*48*/'Head Meat',
+/*49*/'Cheek',
+/*50*/'Tongue',
+/*51*/'Eye',
+/*52*/'Brain'
   ];
 
 Spanish:string[]=[
@@ -118,7 +127,8 @@ Spanish:string[]=[
   'Lomo',
   'Sirloin/Aguayón',
   'Costillar',
-  'Espaldilla'
+  'Espaldilla',
+  'Cabeza'
 ];
 
 SpanishParts: string[] = [
@@ -127,7 +137,7 @@ SpanishParts: string[] = [
 /*1*/    'Pecho, Entero',
 /*2*/    'Pecho,Mitad Punta ',
 /*3*/    'Pecho, Mitad Plana',
-  //FLANK & SHORT PLATE-SPA
+  //SHORT PLATE & FLANK-SPA
 /*4*/    'Corte de Falda',
 /*5*/    'Fajita',
 /*6*/    'Corte de Arrachera',
@@ -176,7 +186,13 @@ SpanishParts: string[] = [
 /*44*/'Corte de planchuela',
 /*45*/'Corte de diezmillo',
 /*46*/'Teres mayor(Carnaza de paleta)',
-/*47*/'Medallones de Teres mayor'
+/*47*/'Medallones de Teres mayor',
+  //HEAD-SPA
+/*48*/'Carne de Cabeza',
+/*49*/'Cachete',
+/*50*/'Lengua',
+/*51*/'Ojo',
+/*52*/'Seso'
 
 ];
 
