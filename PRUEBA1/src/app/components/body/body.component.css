@@ -1,8 +1,12 @@
 
 
-  
+ 
+ .cls-1{fill:#aa373f;}.cls-2{fill:#ab373f;}.cls-3{fill:#ab383f;}.cls-4{fill:#ab383e;}.cls-5{fill:#010300;}.cls-6{fill:#010101;}.cls-7{fill:#010301;}.cls-8{fill:#0b0e09;}
+ 
+ 
   path:hover:not(#BL-L):not(#BL-R):not(#FL):not(#Tail) {
     fill:#ddd;
     transition: fill 0.3s;
   }
+  
   .saturate:hover { filter: saturate(4); }
